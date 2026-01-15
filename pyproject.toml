@@ -1,0 +1,11 @@
+[project]
+name = "src"
+version = "0.0.1"
+description = "A Vehicle insurance project for productionizing models"
+authors = [{name = "Prathamesh Uravane", email = "upratham2002@gmail.com"}]
+
+[tool.setuptools]
+packages = {find = {}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
